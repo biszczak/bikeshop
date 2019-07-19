@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bikeshop/static/css/main.55bbf5cb.chunk.css",
-    "main.js": "/bikeshop/static/js/main.5bbc03b7.chunk.js",
-    "main.js.map": "/bikeshop/static/js/main.5bbc03b7.chunk.js.map",
+    "main.js": "/bikeshop/static/js/main.e6851045.chunk.js",
+    "main.js.map": "/bikeshop/static/js/main.e6851045.chunk.js.map",
     "runtime~main.js": "/bikeshop/static/js/runtime~main.ef263cd9.js",
     "runtime~main.js.map": "/bikeshop/static/js/runtime~main.ef263cd9.js.map",
     "static/js/2.0880acbd.chunk.js": "/bikeshop/static/js/2.0880acbd.chunk.js",
     "static/js/2.0880acbd.chunk.js.map": "/bikeshop/static/js/2.0880acbd.chunk.js.map",
     "index.html": "/bikeshop/index.html",
-    "precache-manifest.a00712550b3f770d1e1045271f3104d7.js": "/bikeshop/precache-manifest.a00712550b3f770d1e1045271f3104d7.js",
+    "precache-manifest.a2dd29f080778ad141c8cb93d1af32f2.js": "/bikeshop/precache-manifest.a2dd29f080778ad141c8cb93d1af32f2.js",
     "service-worker.js": "/bikeshop/service-worker.js",
     "static/css/main.55bbf5cb.chunk.css.map": "/bikeshop/static/css/main.55bbf5cb.chunk.css.map",
     "static/media/index.css": "/bikeshop/static/media/Milkshake.d9600397.svg",

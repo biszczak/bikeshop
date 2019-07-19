@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b06354758d704fa383ddd21eb69f006b",
+    "revision": "a3f769880fc6719244100181199f4fad",
     "url": "/bikeshop/index.html"
   },
   {
-    "revision": "bea0c2acf69396a06de7",
+    "revision": "c3b7a98ee24c51d594c2",
     "url": "/bikeshop/static/css/main.55bbf5cb.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bikeshop/static/js/2.0880acbd.chunk.js"
   },
   {
-    "revision": "bea0c2acf69396a06de7",
-    "url": "/bikeshop/static/js/main.5bbc03b7.chunk.js"
+    "revision": "c3b7a98ee24c51d594c2",
+    "url": "/bikeshop/static/js/main.e6851045.chunk.js"
   },
   {
     "revision": "6912c3c43fcf9e6846e0",
