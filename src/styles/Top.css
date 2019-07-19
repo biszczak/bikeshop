@@ -1,0 +1,44 @@
+
+
+    div.top {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 99;
+        /* height: 90px; */
+        background-color: #3c3c3c;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        /* border-bottom: 1px solid black; */
+    }
+    
+    div.top-wrapper {
+        max-width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    div.logo img{
+        height: 60px;
+    }
+
+    div.logo h3 {
+        font-family: 'Milkshake', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+
+    @media (max-width: 992px) {
+        
+    }
+
+
+
+
+

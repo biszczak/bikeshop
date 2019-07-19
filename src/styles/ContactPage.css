@@ -1,0 +1,31 @@
+.contact {
+    margin-top: 120px;
+    text-align: center;
+}
+.contact h2 {
+    font-family: 'Old Standard TT', serif;
+    font-weight: 400;
+    font-size: 46px;
+    margin-bottom: 30px;
+    color: #3c3c3c;
+}
+.contact textarea {
+    font-size: 16px;
+    width: 100%;
+    min-height: 200px;
+    margin: 20px 0;
+    line-height: 1.6;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.contact button {
+    display: block;
+    border: none;
+}
+
+.contact button div.primary-btn {
+    margin-left: 0;
+    margin-top: -15px;
+    cursor: pointer;
+}

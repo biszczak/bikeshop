@@ -1,0 +1,284 @@
+
+
+div.app-background {
+  position: absolute; 
+  z-index: -1;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+div.app-background img {
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+div.container {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 100px);
+  width: 1200px;
+  margin: 0 auto;
+  color: #fff;
+  font-weight: 300;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+header {
+  /* /* flex-basis: 30vh; */
+  
+  margin-top: 95px;
+  height: 500px;
+}
+
+/* main {
+  display: flex;
+  flex-grow: 1;
+  padding: 30px 0;
+} */
+
+aside {
+  min-width: 240px;
+}
+
+section.page {
+  flex-grow: 1;
+}
+
+section.newsletter {
+  margin-top: 100px;
+  background: url(../images/background1.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  padding: 100px;
+}
+
+footer {
+  background-color: #fff;
+  color: #3c3c3c;
+  padding: 10px 0;
+  text-align: left;
+  margin-top: 100px;
+  border-top: 1px solid #3c3c3c;
+  padding: 30px;
+}
+
+.primary-btn {
+  position: absolute;
+  padding: 7px 40px;
+  background-color: #3c3c3c;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  font-size: 12px;
+  width: 140px;
+  margin-left: -70px;
+  transition: .3s;
+}
+
+.primary-btn-container {
+  display: block;
+  background-color: #3c3c3c;
+  width: 150px;
+  height: 40px;
+  padding: 5px;
+}
+
+.primary-btn:hover {
+  background-color:rgb(232, 232, 232);
+  color: #3c3c3c;
+}
+
+@media (max-width: 1250px) {
+
+  div.top-wrapper {
+    max-width: 900px;
+  }
+  div.container {
+    width: 900px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* div.top-wrapper {
+    max-width: 100;
+  } */
+  div.container {
+    width: 100%;
+  }
+
+  .popular-products-wrapper {
+    flex-direction: column;
+  }
+
+  .popular-products-wrapper a {
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div.description div h1 {
+    font-size: 35px !important;
+  }
+
+  div.desc h2 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 35px !important;
+  }
+
+  .newsletter h3 {
+    font-size: 35px !important;
+  }
+
+  section.who-we-are {
+    margin-top: 77px !important;
+    flex-direction: column;
+  }
+
+  section.who-we-are .desc {
+    margin-bottom: 30px;
+  }
+
+  section.who-we-are .primary-btn-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .popular-products {
+    margin-top: 50px !important;
+  }
+
+  header {
+    margin-top: 82px;
+    height: 320px;
+}
+
+section.newsletter {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+div.app-background {
+  height: 400px;
+}
+
+  section.who-we-are .desc, section.who-we-are .image {
+    width: 100% !important;
+    height: 332px;
+  }
+
+  section.newsletter {
+    margin-top: 50px;
+  }
+
+  .products {
+    margin-top: 145px !important;
+  }
+
+  .products li a {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .products li img {
+    margin-bottom: 20px;
+  }
+
+  .products li {
+    margin-bottom: 30px !important;
+    padding-bottom: 30px !important;
+  }
+
+  footer {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 80px;
+  }
+
+  footer div p:last-child {
+    text-align: right;
+  }
+
+  .products li img {
+    margin-right: 0 !important;
+  }
+}
+
+@media (max-width: 690px) {
+
+  div.description div h1 {
+    font-size: 26px !important;
+  }
+
+  div.desc h2 {
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 26px !important;
+  }
+
+  .newsletter h3 {
+    font-size: 26px !important;
+  }
+
+  section.who-we-are {
+    /* margin-top: 77px !important; */
+    /* flex-direction: column-reverse; */
+  }
+
+  div.app-background img {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0%, 0%);
+    width: auto;
+}
+
+form {
+  flex-direction: column;
+    text-align: center;
+}
+
+form .primary-btn-container {
+  margin: 15px auto;
+}
+
+.popular-products-wrapper a {
+  width: 100% !important;
+}
+
+section.who-we-are .desc {
+  height: auto;
+}
+
+section.who-we-are .image {
+  height: 332px;;
+}
+
+article.product {
+  flex-direction: column;
+}
+
+article.product div {
+  width: 100% !important;
+}
+
+article.product div.photo, article.product div.details {
+  margin-bottom: 30px;
+}
+
+article.product div.details {
+  padding-left: 0 !important;
+}
+
+
+}

@@ -1,0 +1,40 @@
+/* nav.main {
+    padding: 0 30px 30px 0;
+} */
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav.main a {
+    display: block;
+    /* height: 80px; */
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 300;
+    /* line-height: 80px; */
+    padding-right: 15px;
+    padding-left: 15px;
+    transition: .3s;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 0px;
+    /* border-bottom: 2px solid red; */
+}
+
+/* nav.main li:last-child a{
+    padding-right: 0;
+} */
+
+nav.main a:hover {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #fff;
+}
+
+nav.main a.active {
+    /* border-left: 10px grey solid; */
+    /* transform: translateX(0); */
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+}

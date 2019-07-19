@@ -1,0 +1,59 @@
+.popular-products {
+text-align: center;
+margin-top: 100px;
+}
+
+.popular-products h2 {
+    font-family: 'Old Standard TT', serif;
+    font-weight: 400;
+    color: #3c3c3c;
+    font-size: 46px;
+    margin-bottom: 30px;
+}
+
+.popular-products-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-products-wrapper a {
+    display: block;
+    width: 30%;
+    text-decoration: none;
+}
+
+.product-container {
+    /* width: 30%; */
+    border: 1px solid #aaa;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #fff;
+    transition: .3s;
+}
+
+.product-container:hover {
+    background-color: rgba(0, 0, 0, .1)
+}
+
+.product-container h3 {
+    font-weight: 500;
+    color: #3c3c3c;
+}
+
+.product-container img {
+    width: 100%;
+}
+
+.product-container span {
+    display: block;
+    color: #3c3c3c;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.product-container span.price {
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 15px;
+}
